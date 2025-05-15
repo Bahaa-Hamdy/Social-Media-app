@@ -1,19 +1,24 @@
 
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800');
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
-@font-face {
-    font-family: calibri;
-    
-}
+
 
 
 /*===============
 ***General Styling 
 ===============*/
+
 html,body{
-	font-family: calibri;
-    background: #fff;
+	font-family: calibri , Arial, Helvetica, sans-serif;
+    background: white;
+    /* overflow: hidden !important; */
 }
+.homepage {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;    
+    font-size: 27px;
+    text-decoration: none;
+}
+
 
 .bio{
     text-align: justify !important; width: 1100px; color: #000; font-family: calibri; margin-left:5%;text-decoration: none;outline: none;
@@ -771,7 +776,7 @@ header.sticky {
 }
 
 .timeline-info {
-    background: ##b0b3b8 none repeat scroll 0 0;
+    background: #b0b3b8 none repeat scroll 0 0;
     display: block;
     line-height: 59px;
     width: 100%;

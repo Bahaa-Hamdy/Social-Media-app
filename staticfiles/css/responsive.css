@@ -1,3 +1,4 @@
+
 /*--- big screen ----*/
 
 @media screen and (max-width: 1920px) and (min-width: 1601px) {
@@ -1136,6 +1137,7 @@
     .add-btn {
         top: 70px;
         right: 30px;
+        overflow: hidden;
     }
     .user-avatar {
         float: left;
@@ -1801,3 +1803,5 @@
     .apply-bttons > a{font-size: 13px; padding: 8px 14px;}
 
 }
+
+
